@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .cell{
+        background-color: rgb(203, 247, 255);
+        border: 1px solid black;
+        font-size: 80px;
+        padding: 20px 20px;
+
+        width: 100px;
+        height: 100px;
+        
+        display: flex;
+        align-items: center;
+      }
+    }
+    h2{
+        font-size: 30px;
+        margin: 40px;
+    }
+    .reset {
+        font-size: 30px;
+    }
+  }
+}

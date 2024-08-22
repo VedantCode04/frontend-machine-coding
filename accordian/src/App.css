@@ -1,0 +1,90 @@
+/* Main container styling */
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styling */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Wrapper for accordion sections */
+.wrapper {
+  border-top: 2px solid #ddd;
+}
+
+/* Individual accordion section */
+.data {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.data:hover {
+  background-color: #d1d1d1;
+}
+
+/* Accordion section heading */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Title text */
+.heading span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Toggle button */
+.heading button {
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+  width: 30px;
+}
+
+.heading button:hover {
+  color: #0056b3;
+}
+
+/* Content visibility */
+.open {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #666;
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.hide {
+  display: none;
+}
+
+/* Fade-in animation for the content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

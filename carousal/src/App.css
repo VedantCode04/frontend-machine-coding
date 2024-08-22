@@ -1,0 +1,44 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .wrapper {
+    button {
+      font-size: 30px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: antiquewhite;
+      margin-top: 30px;
+    }
+    img {
+      width: 400px;
+      height: 300px;
+      margin-top: 30px;
+      border-radius: 20px;
+      border: 5px solid wheat;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    .btn-list {
+        margin-top: 30px;
+      button {
+        padding: 0;
+        margin: 0;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: rgb(236, 184, 115);
+      }
+
+      .large-btn{
+        padding: 10px;
+      }
+    }
+  }
+}
