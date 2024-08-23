@@ -1,0 +1,83 @@
+export const quizData = [
+  {
+    id: 1,
+    question: "Which element has the chemical symbol 'O'?",
+    options: ["Oxygen", "Gold", "Osmium", "Zinc"],
+    correctAnswer: "Oxygen",
+    userAnswer: "",
+  },
+  {
+    id: 2,
+    question: "What is the square root of 64?",
+    options: ["6", "7", "8", "9"],
+    correctAnswer: "8",
+    userAnswer: "",
+  },
+  {
+    id: 3,
+    question: "Who painted the Mona Lisa?",
+    options: [
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Claude Monet",
+    ],
+    correctAnswer: "Leonardo da Vinci",
+    userAnswer: "",
+  },
+  {
+    id: 4,
+    question: "Which is the longest river in the world?",
+    options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    correctAnswer: "Nile",
+    userAnswer: "",
+  },
+  {
+    id: 5,
+    question: "What is the main ingredient in guacamole?",
+    options: ["Tomato", "Avocado", "Lettuce", "Cucumber"],
+    correctAnswer: "Avocado",
+    userAnswer: "",
+  },
+  {
+    id: 6,
+    question: "Which country won the FIFA World Cup in 2018?",
+    options: ["Germany", "Argentina", "Brazil", "France"],
+    correctAnswer: "France",
+    userAnswer: "",
+  },
+  {
+    id: 7,
+    question: "What does HTTP stand for?",
+    options: [
+      "HyperText Transfer Protocol",
+      "High Transfer Text Protocol",
+      "Hyper Transfer Text Protocol",
+      "HyperText Transmission Protocol",
+    ],
+    correctAnswer: "HyperText Transfer Protocol",
+    userAnswer: "",
+  },
+  {
+    id: 8,
+    question: "Which year did the Titanic sink?",
+    options: ["1905", "1912", "1920", "1915"],
+    correctAnswer: "1912",
+    userAnswer: "",
+  },
+  {
+    id: 9,
+    question: "What is the most abundant gas in Earth's atmosphere?",
+    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    correctAnswer: "Nitrogen",
+    userAnswer: "",
+  },
+  {
+    id: 10,
+    question:
+      "Which programming language is known as the backbone of web development?",
+    options: ["Python", "C++", "JavaScript", "Ruby"],
+    correctAnswer: "JavaScript",
+    userAnswer: "",
+  },
+];
