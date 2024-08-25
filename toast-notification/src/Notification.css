@@ -1,0 +1,63 @@
+.notification{
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+span{
+    button{
+        text-align: center;
+        font-size: 25px;
+        border-radius: 5px;
+        border: none;
+        transition: 0.3s ease ;
+        cursor: pointer;
+    }
+
+    button:hover{
+        transform: scale(0.95);
+    }
+}
+
+.info{
+    background-color: blue;
+}
+
+.success{
+    background-color: green;
+}
+
+.error{
+    background-color: red;
+}
+
+.warning{
+    background-color: rgb(255, 174, 0);
+}
+
+.top-right{
+    position: fixed;
+    top: 20px; right: 20px;
+}
+
+.top-left{
+    position: fixed;
+    top: 20px; left: 20px;
+}
+
+.bottom-right{
+    position: fixed;
+    bottom: 20px; right: 20px;
+}
+
+.bottom-left{
+    position: fixed;
+    bottom: 20px; left: 20px;
+}

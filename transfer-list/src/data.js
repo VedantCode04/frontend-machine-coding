@@ -1,0 +1,92 @@
+export const data = [
+  {
+    id: 1,
+    data: "Roopkund Trek, Uttarakhand",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 2,
+    data: "Chadar Trek, Ladakh",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 3,
+    data: "Valley of Flowers Trek, Uttarakhand",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 4,
+    data: "Hampta Pass Trek, Himachal Pradesh",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 5,
+    data: "Kedarkantha Trek, Uttarakhand",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 6,
+    data: "Markha Valley Trek, Ladakh",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 7,
+    data: "Triund Trek, Himachal Pradesh",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 8,
+    data: "Har Ki Dun Trek, Uttarakhand",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 9,
+    data: "Goechala Trek, Sikkim",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 10,
+    data: "Sandakphu Trek, West Bengal",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 11,
+    data: "Nag Tibba Trek, Uttarakhand",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 12,
+    data: "Tarsar Marsar Trek, Jammu and Kashmir",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 13,
+    data: "Brahmatal Trek, Uttarakhand",
+    isLeft: true,
+    selected: false,
+  },
+  {
+    id: 14,
+    data: "Kumara Parvatha Trek, Karnataka",
+    isLeft: false,
+    selected: false,
+  },
+  {
+    id: 15,
+    data: "Dzongri Trek, Sikkim",
+    isLeft: true,
+    selected: false,
+  },
+];

@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 80px;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.span{
+  font-size: 50px;
+  background-color: rgb(231, 231, 231);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
